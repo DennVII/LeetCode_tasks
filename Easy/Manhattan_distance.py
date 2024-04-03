@@ -34,7 +34,5 @@ class Solution:
     def manhattan_distance(point1, point2):
         return abs(point1[0] - point2[0]) + abs(point1[1] - point2[1])
 
-    
-s = Solution()
-print(s.nearestValidPoint(x = 3, y = 4, points = [[1,2],[3,1],[2,4],[2,3],[4,4]]))
+
 

@@ -46,5 +46,3 @@ class Solution:
         return (bi1 + bi2).get_num()
     
 
-s = Solution()
-print(s.addStrings('1', '9'))

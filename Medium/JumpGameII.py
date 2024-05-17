@@ -24,6 +24,3 @@ class Solution(object):
                     break
                 journey[i + j] = min(journey[i + j], journey[i] + 1)
         return journey[n-1]
-
-s = Solution()
-print(s.jump([3,1,2]))
